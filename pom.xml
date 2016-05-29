@@ -7,7 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>17EventHandlinginSpring</module>
-    <!--<module>18CustomEventsinSpring</module>-->
+    <module>18CustomEventsinSpring</module>
 
 
   </modules>
@@ -37,7 +37,7 @@
   </dependencies>
 
   <build>
-    <finalName>study-api</finalName>
+    <finalName>springtutorial</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
