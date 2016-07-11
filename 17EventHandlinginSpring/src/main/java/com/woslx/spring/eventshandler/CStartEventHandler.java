@@ -11,7 +11,6 @@ public class CStartEventHandler implements ApplicationListener<ContextStartedEve
 
     @Override
     public void onApplicationEvent(ContextStartedEvent event) {
-        System.out.println("ContextStartedEvent Received");
-        System.out.println(event.getSource());
+        System.out.println("ContextStartedEvent Received. 事件源："+event.getSource());
     }
 }

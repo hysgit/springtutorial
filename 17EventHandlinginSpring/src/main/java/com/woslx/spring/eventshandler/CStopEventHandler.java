@@ -10,7 +10,6 @@ public class CStopEventHandler
         implements ApplicationListener<ContextStoppedEvent> {
 
     public void onApplicationEvent(ContextStoppedEvent event) {
-        System.out.println("ContextStoppedEvent Received");
-        System.out.println(event.getSource());
+        System.out.println("ContextStoppedEvent Received. 事件源："+event.getSource());
     }
 }
