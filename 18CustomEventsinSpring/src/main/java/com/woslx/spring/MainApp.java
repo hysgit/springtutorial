@@ -12,8 +12,7 @@ public class MainApp {
         ConfigurableApplicationContext context =
                 new ClassPathXmlApplicationContext("Beans.xml");
 
-        CustomEventPublisher cvp =
-                (CustomEventPublisher) context.getBean("customEventPublisher");
+        CustomEventPublisher cvp = (CustomEventPublisher) context.getBean("customEventPublisher");
         cvp.publish();
         cvp.publish();
     }
