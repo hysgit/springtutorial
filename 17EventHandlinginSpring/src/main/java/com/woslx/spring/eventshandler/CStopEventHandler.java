@@ -9,6 +9,7 @@ import org.springframework.context.event.ContextStoppedEvent;
 public class CStopEventHandler
         implements ApplicationListener<ContextStoppedEvent> {
 
+    @Override
     public void onApplicationEvent(ContextStoppedEvent event) {
         System.out.println("ContextStoppedEvent Received. 事件源："+event.getSource());
     }

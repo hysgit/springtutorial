@@ -11,6 +11,7 @@ public class CustomEvent extends ApplicationEvent {
         super(source);
     }
 
+    @Override
     public String toString(){
         return "My Custom Event";
     }
